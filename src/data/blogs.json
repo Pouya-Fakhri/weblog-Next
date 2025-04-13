@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Tech World",
+    "description": "A blog about the latest tech news, tutorials, and reviews.",
+    "id": "1",
+    "author": {
+      "name": "Ali Rezaei",
+      "email": "ali.rezaei@example.com",
+      "bio": "Tech enthusiast, writer and web developer.",
+      "social": {
+        "twitter": "@alirezaei",
+        "linkedin": "linkedin.com/in/alirezaei"
+      }
+    },
+    "posts": [
+      {
+        "title": "Samsung's New Smartphone Review",
+        "date": "2025-04-10",
+        "content": "In this post, we will fully review Samsung's new smartphone...",
+        "tags": ["Samsung", "Smartphone", "Review"],
+        "comments": [
+          {
+            "author": "Reza",
+            "date": "2025-04-11",
+            "text": "Good review, thanks."
+          },
+          {
+            "author": "Maryam",
+            "date": "2025-04-12",
+            "text": "Is this phone worth buying?"
+          }
+        ]
+      },
+      {
+        "title": "Python Programming Basics Tutorial",
+        "date": "2025-04-05",
+        "content": "This tutorial is for people who want to start Python programming...",
+        "tags": ["Python", "Programming", "Tutorial"],
+        "comments": []
+      }
+    ],
+    "categories": ["Technology", "Programming", "Smartphone"],
+    "theme": "dark",
+    "analytics": {
+      "pageViews": "12345",
+      "averageSessionDuration": "00:05:30"
+    }
+  }
+]
