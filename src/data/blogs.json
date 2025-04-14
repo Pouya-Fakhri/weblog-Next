@@ -39,11 +39,304 @@
         "comments": []
       }
     ],
-    "categories": ["Technology", "Programming", "Smartphone"],
-    "theme": "dark",
     "analytics": {
       "pageViews": "12345",
       "averageSessionDuration": "00:05:30"
+    }
+  },
+  {
+    "name": "Health Oasis",
+    "description": "A blog dedicated to health tips, workouts, and wellness guides.",
+    "id": "2",
+    "author": {
+      "name": "Sara Mahmoodi",
+      "email": "sara.mahmoodi@example.com",
+      "bio": "Fitness coach and nutrition expert.",
+      "social": {
+        "twitter": "@saramahmoodi",
+        "linkedin": "linkedin.com/in/saramahmoodi"
+      }
+    },
+    "posts": [
+      {
+        "title": "10 Easy Home Workouts",
+        "date": "2025-04-08",
+        "content": "Learn how to stay fit with these easy home workouts...",
+        "tags": ["Fitness", "Workout", "Health"],
+        "comments": [
+          {
+            "author": "Amir",
+            "date": "2025-04-09",
+            "text": "Very helpful, thanks!"
+          }
+        ]
+      },
+      {
+        "title": "Healthy Eating 101",
+        "date": "2025-04-04",
+        "content": "An introduction to healthy eating habits...",
+        "tags": ["Nutrition", "Health", "Guide"],
+        "comments": []
+      }
+    ],
+    "analytics": {
+      "pageViews": "5432",
+      "averageSessionDuration": "00:04:20"
+    }
+  },
+  {
+    "name": "Travel Diaries",
+    "description": "A blog for travel lovers, with destination guides and stories.",
+    "id": "3",
+    "author": {
+      "name": "Omid Karimi",
+      "email": "omid.karimi@example.com",
+      "bio": "Globetrotter and adventure seeker.",
+      "social": {
+        "twitter": "@omidkarimi",
+        "linkedin": "linkedin.com/in/omidkarimi"
+      }
+    },
+    "posts": [
+      {
+        "title": "Exploring Japan",
+        "date": "2025-04-02",
+        "content": "Join me as I explore the beautiful landscapes of Japan...",
+        "tags": ["Travel", "Japan", "Adventure"],
+        "comments": []
+      }
+    ],
+    "analytics": {
+      "pageViews": "9876",
+      "averageSessionDuration": "00:06:15"
+    }
+  },
+  {
+    "name": "Cooking Corner",
+    "description": "A blog about recipes, cooking techniques, and food culture.",
+    "id": "4",
+    "author": {
+      "name": "Leila Hosseini",
+      "email": "leila.hosseini@example.com",
+      "bio": "Food lover and chef.",
+      "social": {
+        "twitter": "@leilahosseini",
+        "linkedin": "linkedin.com/in/leilahosseini"
+      }
+    },
+    "posts": [
+      {
+        "title": "Persian Cuisine Basics",
+        "date": "2025-04-12",
+        "content": "A guide to traditional Persian dishes...",
+        "tags": ["Cooking", "Persian Food", "Recipes"],
+        "comments": []
+      }
+    ],
+    "analytics": {
+      "pageViews": "7890",
+      "averageSessionDuration": "00:07:10"
+    }
+  },
+  {
+    "name": "Book Haven",
+    "description": "A blog for book enthusiasts, featuring reviews and author interviews.",
+    "id": "5",
+    "author": {
+      "name": "Reza Kazemi",
+      "email": "reza.kazemi@example.com",
+      "bio": "Book critic and literature aficionado.",
+      "social": {
+        "twitter": "@rezakazemi",
+        "linkedin": "linkedin.com/in/rezakazemi"
+      }
+    },
+    "posts": [
+      {
+        "title": "Top 10 Must-Read Novels",
+        "date": "2025-04-03",
+        "content": "Discover some of the best novels to read this year...",
+        "tags": ["Books", "Reviews", "Literature"],
+        "comments": []
+      }
+    ],
+    "analytics": {
+      "pageViews": "8765",
+      "averageSessionDuration": "00:08:00"
+    }
+  },
+  {
+    "name": "Fitness Focus",
+    "description": "A blog about achieving fitness goals with effective strategies.",
+    "id": "6",
+    "author": {
+      "name": "Navid Ahmadi",
+      "email": "navid.ahmadi@example.com",
+      "bio": "Personal trainer and motivational speaker.",
+      "social": {
+        "twitter": "@navidahmadi",
+        "linkedin": "linkedin.com/in/navidahmadi"
+      }
+    },
+    "posts": [
+      {
+        "title": "5 Tips for Staying Motivated",
+        "date": "2025-04-10",
+        "content": "Learn how to keep up your fitness motivation...",
+        "tags": ["Fitness", "Motivation", "Tips"],
+        "comments": []
+      }
+    ],
+    "analytics": {
+      "pageViews": "4321",
+      "averageSessionDuration": "00:05:00"
+    }
+  },
+  {
+    "name": "Art Spectrum",
+    "description": "Exploring creativity through various art forms and styles.",
+    "id": "7",
+    "author": {
+      "name": "Parisa Gholami",
+      "email": "parisa.gholami@example.com",
+      "bio": "Painter and art historian.",
+      "social": {
+        "twitter": "@parisagholami",
+        "linkedin": "linkedin.com/in/parisagholami"
+      }
+    },
+    "posts": [
+      {
+        "title": "Acrylic Painting Techniques",
+        "date": "2025-04-01",
+        "content": "Learn the basics of acrylic painting with this guide...",
+        "tags": ["Painting", "Art", "Techniques"],
+        "comments": []
+      }
+    ],
+    "analytics": {
+      "pageViews": "5678",
+      "averageSessionDuration": "00:06:45"
+    }
+  },
+  {
+    "name": "Nature's Wonders",
+    "description": "Discovering the beauty and mysteries of the natural world.",
+    "id": "8",
+    "author": {
+      "name": "Arash Ebrahimi",
+      "email": "arash.ebrahimi@example.com",
+      "bio": "Wildlife photographer and nature enthusiast.",
+      "social": {
+        "twitter": "@arashebrahimi",
+        "linkedin": "linkedin.com/in/arashebrahimi"
+      }
+    },
+    "posts": [
+      {
+        "title": "Rare Birds of Iran",
+        "date": "2025-04-06",
+        "content": "Iran is home to a variety of unique bird species...",
+        "tags": ["Birds", "Wildlife", "Photography"],
+        "comments": []
+      }
+    ],
+    "analytics": {
+      "pageViews": "9102",
+      "averageSessionDuration": "00:07:20"
+    }
+  },
+  {
+    "name": "Code Chronicles",
+    "description": "Tips, tricks, and stories from the world of software development.",
+    "id": "9",
+    "author": {
+      "name": "Mohammad Salehi",
+      "email": "mohammad.salehi@example.com",
+      "bio": "Software developer and tech blogger.",
+      "social": {
+        "twitter": "@msalehi",
+        "linkedin": "linkedin.com/in/mohammadsalehi"
+      }
+    },
+    "posts": [
+      {
+        "title": "Understanding Algorithms",
+        "date": "2025-04-07",
+        "content": "Dive into the basics of algorithms and their applications...",
+        "tags": ["Algorithms", "Coding", "Education"],
+        "comments": [
+          {
+            "author": "Farhad",
+            "date": "2025-04-08",
+            "text": "This made algorithms easier for me to understand!"
+          }
+        ]
+      }
+    ],
+    "analytics": {
+      "pageViews": "6420",
+      "averageSessionDuration": "00:05:55"
+    }
+  },
+  {
+    "name": "Green Planet",
+    "description": "Promoting sustainability and eco-friendly practices.",
+    "id": "10",
+    "author": {
+      "name": "Shirin Khodadadi",
+      "email": "shirin.khodadadi@example.com",
+      "bio": "Environmental activist and writer.",
+      "social": {
+        "twitter": "@shirinkhodadadi",
+        "linkedin": "linkedin.com/in/shirinkhodadadi"
+      }
+    },
+    "posts": [
+      {
+        "title": "How to Reduce Plastic Waste",
+        "date": "2025-04-09",
+        "content": "Simple steps everyone can take to cut down on plastic waste...",
+        "tags": ["Environment", "Sustainability", "Tips"],
+        "comments": [
+          {
+            "author": "Ramin",
+            "date": "2025-04-10",
+            "text": "I've started using reusable bags thanks to your article!"
+          }
+        ]
+      }
+    ],
+    "analytics": {
+      "pageViews": "8314",
+      "averageSessionDuration": "00:07:00"
+    }
+  },
+  {
+    "name": "Movie Magic",
+    "description": "Reviews, discussions, and analyses of films from around the world.",
+    "id": "11",
+    "author": {
+      "name": "Nima Yazdani",
+      "email": "nima.yazdani@example.com",
+      "bio": "Film critic and storyteller.",
+      "social": {
+        "twitter": "@nimayazdani",
+        "linkedin": "linkedin.com/in/nimayazdani"
+      }
+    },
+    "posts": [
+      {
+        "title": "The Evolution of Sci-Fi Movies",
+        "date": "2025-04-11",
+        "content": "Exploring how sci-fi films have changed over the decades...",
+        "tags": ["Movies", "Sci-Fi", "Analysis"],
+        "comments": []
+      }
+    ],
+    "analytics": {
+      "pageViews": "7546",
+      "averageSessionDuration": "00:06:30"
     }
   }
 ]
