@@ -14,7 +14,7 @@ export default function Home() {
             >
               <h2 className=" text-2xl">{item.name}</h2>
               <p className="text-[12px]">{item.description}</p>
-              <Link href={`/${item.id}`}>
+              <Link href={`/blogs/${item.id}`}>
                 <div className=" border rounded-[10px] border-[#50D890] bg-[#50D890] text-[#EFFFFB] w-[45%] h-[40px] flex justify-center items-center  p-1 ">
                   learn more ...
                 </div>

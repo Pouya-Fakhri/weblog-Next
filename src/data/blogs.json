@@ -14,9 +14,10 @@
     },
     "posts": [
       {
+        "id": "101",
         "title": "Samsung's New Smartphone Review",
         "date": "2025-04-10",
-        "content": "In this post, we will fully review Samsung's new smartphone...",
+        "content": "In this post, we will fully review Samsung's new smartphone, the Galaxy Ultra X. This device boasts a revolutionary camera system with a 200MP sensor, offering unparalleled image quality. The processing power is driven by a Snapdragon 9 Gen 3 processor, ensuring smooth performance in demanding applications and games. We'll delve into the battery life, display quality, and overall user experience to determine if this phone truly lives up to the hype. We'll also compare it to its competitors, such as the iPhone 17 Pro and the Google Pixel 10.",
         "tags": ["Samsung", "Smartphone", "Review"],
         "comments": [
           {
@@ -28,15 +29,49 @@
             "author": "Maryam",
             "date": "2025-04-12",
             "text": "Is this phone worth buying?"
+          },
+          {
+            "author": "Hasan",
+            "date": "2025-04-13",
+            "text": "I'm waiting for the next version."
           }
-        ]
+        ],
+        "isOpen": false
       },
       {
+        "id": "102",
         "title": "Python Programming Basics Tutorial",
         "date": "2025-04-05",
-        "content": "This tutorial is for people who want to start Python programming...",
+        "content": "This tutorial is for people who want to start Python programming. We'll cover the basics of variables, data types, control structures, and functions. Python is a versatile language used in web development, data science, and automation. By the end of this tutorial, you'll have a solid foundation to build more complex programs. We will also touch on using popular libraries like NumPy and Pandas for data manipulation. Each concept will be accompanied by practical examples that you can try out on your own.",
         "tags": ["Python", "Programming", "Tutorial"],
-        "comments": []
+        "comments": [
+          {
+            "author": "Saeed",
+            "date": "2025-04-06",
+            "text": "Very good and helpful."
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "103",
+        "title": "AI and Machine Learning Trends in 2025",
+        "date": "2025-04-15",
+        "content": "Exploring the latest trends in AI and machine learning for 2025, we see a significant rise in edge computing and federated learning. These technologies enable AI models to be deployed on devices, improving privacy and reducing latency. Furthermore, we anticipate advancements in natural language processing, allowing machines to understand and generate human-like text. Ethical considerations will also take center stage as developers strive to create fair and unbiased AI systems. This post will also examine how generative AI is reshaping industries from marketing to healthcare.",
+        "tags": ["AI", "Machine Learning", "Trends"],
+        "comments": [
+          {
+            "author": "Nima",
+            "date": "2025-04-15",
+            "text": "Great insight!"
+          },
+          {
+            "author": "Sara",
+            "date": "2025-04-16",
+            "text": "What are the job opportunities in AI?"
+          }
+        ],
+        "isOpen": false
       }
     ],
     "analytics": {
@@ -59,24 +94,59 @@
     },
     "posts": [
       {
+        "id": "201",
         "title": "10 Easy Home Workouts",
         "date": "2025-04-08",
-        "content": "Learn how to stay fit with these easy home workouts...",
+        "content": "Learn how to stay fit with these easy home workouts that require no equipment. We'll cover exercises like push-ups, squats, lunges, and planks. These workouts can be done in just 20 minutes a day and are perfect for busy schedules. Each exercise will be explained with detailed instructions and modifications for different fitness levels. We will also discuss the importance of warm-up and cool-down routines to prevent injuries and improve flexibility. Combine these workouts with a healthy diet for optimal results.",
         "tags": ["Fitness", "Workout", "Health"],
         "comments": [
           {
             "author": "Amir",
             "date": "2025-04-09",
             "text": "Very helpful, thanks!"
+          },
+          {
+            "author": "Leila",
+            "date": "2025-04-10",
+            "text": "Can you provide a video tutorial?"
           }
-        ]
+        ],
+        "isOpen": false
       },
       {
+        "id": "202",
         "title": "Healthy Eating 101",
         "date": "2025-04-04",
-        "content": "An introduction to healthy eating habits...",
+        "content": "An introduction to healthy eating habits, this guide covers the basics of nutrition and provides practical tips for making better food choices. We'll discuss the importance of balanced meals, portion control, and staying hydrated. Learn about the different food groups and how to incorporate them into your diet. This guide also addresses common myths about dieting and provides a sustainable approach to weight management. We'll provide examples of healthy meal plans and snack ideas to help you get started.",
         "tags": ["Nutrition", "Health", "Guide"],
-        "comments": []
+        "comments": [
+          {
+            "author": "Ali",
+            "date": "2025-04-05",
+            "text": "Thanks for sharing!"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "203",
+        "title": "The Benefits of Meditation",
+        "date": "2025-04-12",
+        "content": "Exploring the mental and physical benefits of meditation, this post details how meditation can reduce stress, improve focus, and enhance overall well-being. We'll cover different meditation techniques, such as mindfulness meditation and guided meditation. Learn how to create a peaceful environment for meditation and how to incorporate it into your daily routine. We will also discuss the scientific evidence supporting the benefits of meditation, including its impact on brain activity and hormone levels.",
+        "tags": ["Meditation", "Wellness", "Health"],
+        "comments": [
+          {
+            "author": "Nazanin",
+            "date": "2025-04-13",
+            "text": "How often should I meditate?"
+          },
+          {
+            "author": "Sina",
+            "date": "2025-04-14",
+            "text": "I will try this."
+          }
+        ],
+        "isOpen": false
       }
     ],
     "analytics": {
@@ -99,11 +169,49 @@
     },
     "posts": [
       {
+        "id": "301",
         "title": "Exploring Japan",
         "date": "2025-04-02",
-        "content": "Join me as I explore the beautiful landscapes of Japan...",
+        "content": "Join me as I explore the beautiful landscapes of Japan, from the bustling streets of Tokyo to the serene temples of Kyoto. This post will highlight the best attractions, including Mount Fuji, Hiroshima Peace Memorial Park, and the enchanting Arashiyama Bamboo Grove. We'll also delve into Japanese culture, customs, and cuisine. Learn about the history of Japan, its art forms, and its unique traditions. This travel diary is designed to inspire your next adventure to the Land of the Rising Sun.",
         "tags": ["Travel", "Japan", "Adventure"],
-        "comments": []
+        "comments": [
+          {
+            "author": "Farid",
+            "date": "2025-04-03",
+            "text": "Japan is my dream destination!"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "302",
+        "title": "A Guide to Backpacking in Europe",
+        "date": "2025-04-09",
+        "content": "Tips and tricks for backpacking across Europe, including how to plan your route, find affordable accommodation, and navigate public transportation. We'll cover essential items to pack, budget-friendly food options, and safety precautions. This guide will also highlight must-see cities and hidden gems throughout Europe, such as Paris, Rome, Barcelona, and Prague. Learn how to make the most of your backpacking adventure and create unforgettable memories. We will also discuss the best apps and resources for planning your trip.",
+        "tags": ["Travel", "Europe", "Backpacking"],
+        "comments": [
+          {
+            "author": "Mina",
+            "date": "2025-04-10",
+            "text": "What are the best cities to visit?"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "303",
+        "title": "Hidden Gems of Southeast Asia",
+        "date": "2025-04-16",
+        "content": "Discover the lesser-known destinations in Southeast Asia that offer unique cultural experiences and breathtaking landscapes. This post will feature destinations such as Luang Prabang in Laos, Bagan in Myanmar, and the Perhentian Islands in Malaysia. We'll explore local markets, temples, and natural wonders. Learn about the history and traditions of these hidden gems and how to travel responsibly. We'll also provide tips for interacting with local communities and supporting sustainable tourism initiatives.",
+        "tags": ["Travel", "Southeast Asia", "Adventure"],
+        "comments": [
+          {
+            "author": "Kaveh",
+            "date": "2025-04-16",
+            "text": "I'm planning a trip to Thailand, any recommendations?"
+          }
+        ],
+        "isOpen": false
       }
     ],
     "analytics": {
@@ -126,11 +234,54 @@
     },
     "posts": [
       {
+        "id": "401",
         "title": "Persian Cuisine Basics",
         "date": "2025-04-12",
-        "content": "A guide to traditional Persian dishes...",
+        "content": "A guide to traditional Persian dishes that will take you on a culinary journey through Iran. We'll cover classic recipes such as ghormeh sabzi, khoresh bademjan, and fesenjan. Learn about the unique spices and ingredients that define Persian cuisine, such as saffron, rosewater, and barberries. This guide will also provide tips for cooking rice perfectly and creating flavorful stews. We'll explore the history and cultural significance of Persian food and its role in Iranian celebrations and traditions. Each recipe will be accompanied by step-by-step instructions and helpful tips.",
         "tags": ["Cooking", "Persian Food", "Recipes"],
-        "comments": []
+        "comments": [
+          {
+            "author": "Sohrab",
+            "date": "2025-04-13",
+            "text": "Delicious!"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "402",
+        "title": "Baking Bread at Home",
+        "date": "2025-04-05",
+        "content": "Learn how to bake delicious bread in your own kitchen, from simple loaves to more complex recipes. We'll cover the basics of yeast, flour, and water, and how to create the perfect dough. This guide will also provide tips for kneading, proofing, and baking bread to achieve a golden crust and a soft interior. We'll explore different types of bread, such as sourdough, baguette, and focaccia. Learn how to customize your bread with herbs, spices, and nuts. Each recipe will be accompanied by detailed instructions and troubleshooting tips.",
+        "tags": ["Baking", "Bread", "Recipes"],
+        "comments": [
+          {
+            "author": "Azin",
+            "date": "2025-04-06",
+            "text": "This is very helpful!"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "403",
+        "title": "Vegan Recipes for Beginners",
+        "date": "2025-04-15",
+        "content": "Easy and tasty vegan recipes for those new to vegan cooking, including plant-based versions of classic dishes. We'll cover recipes such as vegan lasagna, chickpea curry, and black bean burgers. Learn about essential vegan ingredients, such as tofu, tempeh, and nutritional yeast. This guide will also provide tips for meal planning, grocery shopping, and cooking on a budget. We'll explore the health benefits of a vegan diet and how to ensure you're getting all the necessary nutrients. Each recipe will be accompanied by easy-to-follow instructions and ingredient substitutions.",
+        "tags": ["Vegan", "Recipes", "Cooking"],
+        "comments": [
+          {
+            "author": "Bahareh",
+            "date": "2025-04-15",
+            "text": "I'm looking for more vegan options."
+          },
+          {
+            "author": "Fariba",
+            "date": "2025-04-16",
+            "text": "These recipes look great!"
+          }
+        ],
+        "isOpen": false
       }
     ],
     "analytics": {
@@ -153,11 +304,49 @@
     },
     "posts": [
       {
+        "id": "501",
         "title": "Top 10 Must-Read Novels",
         "date": "2025-04-03",
-        "content": "Discover some of the best novels to read this year...",
+        "content": "Discover some of the best novels to read this year, ranging from contemporary fiction to classic literature. This post will feature detailed reviews of each novel, highlighting their themes, characters, and writing style. We'll explore books that have received critical acclaim and resonated with readers worldwide. From thought-provoking narratives to captivating storylines, this list has something for every book lover. We'll also provide recommendations for similar books and authors. Each review will include a summary, analysis, and rating.",
         "tags": ["Books", "Reviews", "Literature"],
-        "comments": []
+        "comments": [
+          {
+            "author": "Parastoo",
+            "date": "2025-04-04",
+            "text": "Great list!"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "502",
+        "title": "An Interview with a Bestselling Author",
+        "date": "2025-04-10",
+        "content": "Exclusive interview with the author of 'The Silent Echo,' a gripping thriller that has topped bestseller lists worldwide. This interview will delve into the author's creative process, inspiration, and writing techniques. We'll explore the themes and characters of the novel and discuss the author's future projects. Learn about the author's journey to success and their advice for aspiring writers. This interview will provide valuable insights into the world of literature and the art of storytelling.",
+        "tags": ["Books", "Author Interview", "Literature"],
+        "comments": [
+          {
+            "author": "Arash",
+            "date": "2025-04-11",
+            "text": "Interesting interview!"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "503",
+        "title": "The Best Books of the 21st Century",
+        "date": "2025-04-16",
+        "content": "A selection of the most influential books of the 21st century, ranging from fiction to non-fiction. This post will feature detailed analyses of each book, highlighting their impact on literature and society. We'll explore books that have challenged conventional thinking and inspired change. From thought-provoking narratives to groundbreaking research, this list showcases the best of modern literature. We'll also provide recommendations for further reading and discussion questions. Each analysis will include a summary, evaluation, and rating.",
+        "tags": ["Books", "Literature", "Reviews"],
+        "comments": [
+          {
+            "author": "Arman",
+            "date": "2025-04-16",
+            "text": "I'm looking for new books to read."
+          }
+        ],
+        "isOpen": false
       }
     ],
     "analytics": {
@@ -180,11 +369,49 @@
     },
     "posts": [
       {
+        "id": "601",
         "title": "5 Tips for Staying Motivated",
         "date": "2025-04-10",
-        "content": "Learn how to keep up your fitness motivation...",
+        "content": "Learn how to keep up your fitness motivation with these five effective tips that will help you stay on track with your goals. We'll discuss setting realistic goals, finding an exercise buddy, rewarding yourself, and tracking your progress. This post will also provide strategies for overcoming obstacles and staying positive. Learn how to create a fitness routine that you enjoy and that fits into your lifestyle. We'll also explore the importance of mindset and self-care in achieving long-term success.",
         "tags": ["Fitness", "Motivation", "Tips"],
-        "comments": []
+        "comments": [
+          {
+            "author": "Sima",
+            "date": "2025-04-11",
+            "text": "I needed this!"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "602",
+        "title": "Effective Cardio Workouts",
+        "date": "2025-04-03",
+        "content": "Different types of cardio workouts to improve your health, including running, cycling, swimming, and HIIT. We'll cover the benefits of each workout and how to choose the best one for your fitness level. This post will also provide tips for proper form, intensity, and duration. Learn how to track your heart rate and monitor your progress. We'll explore the importance of warm-up and cool-down routines to prevent injuries and improve performance. This guide is designed to help you achieve your cardio goals safely and effectively.",
+        "tags": ["Fitness", "Cardio", "Workout"],
+        "comments": [
+          {
+            "author": "Babak",
+            "date": "2025-04-04",
+            "text": "Good suggestions."
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "603",
+        "title": "Strength Training for Beginners",
+        "date": "2025-04-14",
+        "content": "A guide to starting strength training, including essential exercises, equipment, and techniques. We'll cover exercises such as squats, deadlifts, bench press, and overhead press. This post will also provide tips for proper form, weight selection, and progression. Learn how to create a strength training routine that targets all major muscle groups. We'll explore the benefits of strength training, including increased muscle mass, improved bone density, and enhanced metabolism. This guide is designed to help you build a strong and healthy body.",
+        "tags": ["Fitness", "Strength Training", "Workout"],
+        "comments": [
+          {
+            "author": "Roya",
+            "date": "2025-04-15",
+            "text": "I'm new to strength training, this is great."
+          }
+        ],
+        "isOpen": false
       }
     ],
     "analytics": {
@@ -207,11 +434,49 @@
     },
     "posts": [
       {
+        "id": "701",
         "title": "Acrylic Painting Techniques",
         "date": "2025-04-01",
-        "content": "Learn the basics of acrylic painting with this guide...",
+        "content": "Learn the basics of acrylic painting with this guide that covers essential techniques, materials, and tips. We'll discuss how to prepare your canvas, mix colors, and apply paint. This post will also explore different painting styles, such as realism, abstract, and impressionism. Learn how to create texture, depth, and dimension in your paintings. We'll also provide tips for choosing the right brushes and paints. This guide is designed to help you develop your acrylic painting skills and create stunning artwork.",
         "tags": ["Painting", "Art", "Techniques"],
-        "comments": []
+        "comments": [
+          {
+            "author": "Khashayar",
+            "date": "2025-04-02",
+            "text": "Very informative!"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "702",
+        "title": "The History of Modern Art",
+        "date": "2025-04-07",
+        "content": "A journey through the evolution of modern art, from impressionism to contemporary art. This post will highlight the key movements, artists, and artworks that have shaped modern art history. We'll explore the social, political, and cultural influences that have impacted the art world. Learn about the techniques, styles, and philosophies of modern art. This guide is designed to provide a comprehensive overview of modern art and its significance.",
+        "tags": ["Art", "History", "Modern Art"],
+        "comments": [
+          {
+            "author": "Nahid",
+            "date": "2025-04-08",
+            "text": "I love modern art!"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "703",
+        "title": "Sculpture Art: A Comprehensive Guide",
+        "date": "2025-04-15",
+        "content": "Exploring the techniques and history of sculpture art, including different materials, tools, and methods. We'll cover techniques such as carving, modeling, and casting. This post will also highlight famous sculptors and their iconic works. Learn about the different styles of sculpture, from classical to contemporary. We'll also explore the cultural and historical significance of sculpture art. This guide is designed to provide a comprehensive overview of sculpture art and its various forms.",
+        "tags": ["Art", "Sculpture", "Techniques"],
+        "comments": [
+          {
+            "author": "Dariush",
+            "date": "2025-04-15",
+            "text": "This is so interesting."
+          }
+        ],
+        "isOpen": false
       }
     ],
     "analytics": {
@@ -234,11 +499,49 @@
     },
     "posts": [
       {
+        "id": "801",
         "title": "Rare Birds of Iran",
         "date": "2025-04-06",
-        "content": "Iran is home to a variety of unique bird species...",
+        "content": "Iran is home to a variety of unique bird species, including the Persian Ground Jay, White-tailed Lapwing, and Caspian Tit. This post will showcase the stunning photography of these rare birds in their natural habitats. We'll explore their behavior, habitats, and conservation status. Learn about the threats facing these species and the efforts to protect them. This guide will also provide tips for birdwatching and ethical wildlife photography in Iran. This is a celebration of Iran's rich biodiversity.",
         "tags": ["Birds", "Wildlife", "Photography"],
-        "comments": []
+        "comments": [
+          {
+            "author": "Siamak",
+            "date": "2025-04-07",
+            "text": "Beautiful photos!"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "802",
+        "title": "The Amazon Rainforest",
+        "date": "2025-04-01",
+        "content": "Exploring the biodiversity of the Amazon rainforest, the world's largest tropical rainforest. This post will highlight the diverse plant and animal species that call the Amazon home, including jaguars, macaws, and giant river otters. We'll explore the threats facing the Amazon, such as deforestation and climate change. Learn about the indigenous communities that live in the Amazon and their role in conservation. This guide will also provide tips for responsible tourism in the Amazon. This is a celebration of the Amazon's rich biodiversity and its importance to the planet.",
+        "tags": ["Nature", "Rainforest", "Wildlife"],
+        "comments": [
+          {
+            "author": "Elham",
+            "date": "2025-04-02",
+            "text": "Amazing!"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "803",
+        "title": "Exploring the Underwater World",
+        "date": "2025-04-13",
+        "content": "A dive into the mysteries of the ocean and its creatures, from coral reefs to deep-sea trenches. This post will highlight the diverse marine life that inhabits our oceans, including dolphins, whales, and sharks. We'll explore the threats facing our oceans, such as pollution and overfishing. Learn about the efforts to protect marine ecosystems and conserve endangered species. This guide will also provide tips for responsible scuba diving and snorkeling. This is a celebration of the beauty and importance of our oceans.",
+        "tags": ["Nature", "Underwater", "Ocean"],
+        "comments": [
+          {
+            "author": "Peyman",
+            "date": "2025-04-14",
+            "text": "I'd love to go scuba diving one day."
+          }
+        ],
+        "isOpen": false
       }
     ],
     "analytics": {
@@ -261,17 +564,54 @@
     },
     "posts": [
       {
+        "id": "901",
         "title": "Understanding Algorithms",
         "date": "2025-04-07",
-        "content": "Dive into the basics of algorithms and their applications...",
+        "content": "Dive into the basics of algorithms and their applications in computer science. This post will cover essential algorithms such as sorting, searching, and graph traversal. We'll explore their time and space complexity and their real-world applications. Learn how to analyze algorithms and choose the best one for your needs. This guide will also provide examples in Python and Java. We will discuss data structures such as arrays, linked lists and trees, and how they relate to different algorithms.",
         "tags": ["Algorithms", "Coding", "Education"],
         "comments": [
           {
             "author": "Farhad",
             "date": "2025-04-08",
             "text": "This made algorithms easier for me to understand!"
+          },
+          {
+            "author": "Ali",
+            "date": "2025-04-09",
+            "text": "Can you provide some examples in Python?"
           }
-        ]
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "902",
+        "title": "Best Practices for Writing Clean Code",
+        "date": "2025-04-01",
+        "content": "Tips and tricks for writing maintainable and readable code, including code formatting, naming conventions, and commenting. We'll explore the principles of clean code, such as DRY (Don't Repeat Yourself) and SOLID. This post will also provide examples in different programming languages. Learn how to write code that is easy to understand, test, and maintain. We'll also discuss the importance of code reviews and collaboration. This guide is designed to help you become a more effective and professional software developer.",
+        "tags": ["Coding", "Clean Code", "Programming"],
+        "comments": [
+          {
+            "author": "Arsalan",
+            "date": "2025-04-02",
+            "text": "Very helpful!"
+          }
+        ],
+        "isOpen": false
+      },
+      {
+        "id": "903",
+        "title": "Introduction to Web Development",
+        "date": "2025-04-15",
+        "content": "A beginner's guide to web development technologies, including HTML, CSS, and JavaScript. We'll cover the basics of creating web pages, styling them with CSS, and adding interactivity with JavaScript. This post will also explore different web development frameworks and tools. Learn how to build responsive websites that work on different devices. We'll also discuss the importance of web accessibility and SEO. This guide is designed to help you get started with web development and build your own websites.",
+        "tags": ["Web Development", "Coding", "Tutorial"],
+        "comments": [
+          {
+            "author": "Sara",
+            "date": "2025-04-16",
+            "text": "What frameworks should I learn?"
+          }
+        ],
+        "isOpen": false
       }
     ],
     "analytics": {
@@ -294,49 +634,11 @@
     },
     "posts": [
       {
+        "id": "1001",
         "title": "How to Reduce Plastic Waste",
         "date": "2025-04-09",
-        "content": "Simple steps everyone can take to cut down on plastic waste...",
-        "tags": ["Environment", "Sustainability", "Tips"],
-        "comments": [
-          {
-            "author": "Ramin",
-            "date": "2025-04-10",
-            "text": "I've started using reusable bags thanks to your article!"
-          }
-        ]
+        "content": "Simple steps everyone can take to cut down on plastic waste, including using reusable bags, bottles, and containers. We'll explore the impact of plastic waste on the environment and the importance of reducing our consumption. This post will also provide tips for recycling and composting. Learn how to make eco-friendly choices in your daily life. We'll also discuss the role"
       }
-    ],
-    "analytics": {
-      "pageViews": "8314",
-      "averageSessionDuration": "00:07:00"
-    }
-  },
-  {
-    "name": "Movie Magic",
-    "description": "Reviews, discussions, and analyses of films from around the world.",
-    "id": "11",
-    "author": {
-      "name": "Nima Yazdani",
-      "email": "nima.yazdani@example.com",
-      "bio": "Film critic and storyteller.",
-      "social": {
-        "twitter": "@nimayazdani",
-        "linkedin": "linkedin.com/in/nimayazdani"
-      }
-    },
-    "posts": [
-      {
-        "title": "The Evolution of Sci-Fi Movies",
-        "date": "2025-04-11",
-        "content": "Exploring how sci-fi films have changed over the decades...",
-        "tags": ["Movies", "Sci-Fi", "Analysis"],
-        "comments": []
-      }
-    ],
-    "analytics": {
-      "pageViews": "7546",
-      "averageSessionDuration": "00:06:30"
-    }
+    ]
   }
 ]
