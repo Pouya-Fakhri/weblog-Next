@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #EFFFFB;
+    --background: #effffb;
     --foreground: #272727;
   }
 }
@@ -32,6 +32,55 @@ body {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
+.skeleton-loader {
+  position: relative;
+  height: 660px;
+}
+.skeleton-loader:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(#aaaaaa 29px, transparent 0),
+    linear-gradient(#aaaaaa 21px, transparent 0),
+    linear-gradient(#aaaaaa 22px, transparent 0),
+    linear-gradient(#aaaaaa 21px, transparent 0),
+    linear-gradient(#aaaaaa 21px, transparent 0),
+    linear-gradient(#aaaaaa 51px, transparent 0),
+    linear-gradient(#aaaaaa 21px, transparent 0),
+    linear-gradient(#aaaaaa 58px, transparent 0),
+    linear-gradient(#aaaaaa 384px, transparent 0),
+    linear-gradient(#aaaaaa 384px, transparent 0),
+    linear-gradient(#ffffff 100%, transparent 0);
+  background-size: 720px 100%, 757px 29px, 264px 21px, 234px 22px, 291px 21px,
+    212px 21px, 424px 51px, 98px 21px, 245px 58px, 757px 384px, 583px 384px,
+    100% 100%;
+  background-position: 0 0, 16px 81px, 16px 123px, 378px 124px, 676px 123px,
+    1031px 123px, 16px 16px, 1307px 123px, 16px 158px, 16px 247px, 827px 247px,
+    0 0;
+  animation: skeleton-animation 2000ms infinite;
+}
+
+@keyframes skeleton-animation {
+  to {
+    background-position: 100% 0, 16px 81px, 16px 123px, 378px 124px, 676px 123px,
+      1031px 123px, 16px 16px, 1307px 123px, 16px 158px, 16px 247px, 827px 247px,
+      0 0;
+  }
+}
+
+
+

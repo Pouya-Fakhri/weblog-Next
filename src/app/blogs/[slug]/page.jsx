@@ -1,27 +1,15 @@
-"use client";
-
-import React, { useState } from "react";
+import notFoundPage from "@/app/not-found";
 import blogsData from "../../../data/blogs.json";
-import { generateMetadata } from "./metadata";
-
 
 export default function BlogPage({ params }) {
   const { slug } = params;
   const id = slug;
   const blog = blogsData.find((blog) => blog.id == parseInt(id));
-  const [openPostId, setOpenPostId] = useState(null);
 
   if (!blog) {
-    return <div> Blog not found</div>;
+    return notFoundPage()
   }
-
-  function handelComment(postId) {
-    if (openPostId === postId) {
-      setOpenPostId(null);
-    } else {
-      setOpenPostId(postId);
-    }
-  }
+  // throw new Error("Something went wrong!");
 
   return (
     <div
@@ -74,17 +62,14 @@ export default function BlogPage({ params }) {
                   </span>
                 ))}
               </div>
-              <button
-                onClick={() => handelComment(item.id)}
-                className=" cursor-pointer rounded-[10px] border-[#50D890] bg-[#50D890] text-[#EFFFFB] w-[35%] h-[40px] flex justify-center items-center  p-1 "
-              >
+              <button className=" cursor-pointer rounded-[10px] border-[#50D890] bg-[#50D890] text-[#EFFFFB] w-[35%] h-[40px] flex justify-center items-center  p-1 ">
                 Comments {item.comments.length}
               </button>
               <span className="self-end-safe ml-1.5 opacity-40">
                 {" "}
                 {item.date}{" "}
               </span>
-              <div className={`${openPostId === item.id ? "" : "hidden"} `}>
+              <div>
                 {item.comments.map((comment) => {
                   return (
                     <div className="comments border border-[#50D890] p-1 mt-1.5 flex  flex-col rounded-[10px]">
@@ -117,3 +102,14 @@ export default function BlogPage({ params }) {
   );
 }
 
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+
+  const id = slug;
+  const blog = blogsData.find((blog) => blog.id == parseInt(id));
+
+  return {
+    title: `Blog ${blog.name}`,
+    description: `Description for blog post ${blog.description}`,
+  };
+}
